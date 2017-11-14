@@ -1,7 +1,6 @@
 execute pathogen#infect()
 
 " Set temp file directories
-set undodir=~/.vim/undo//
 set backupdir=~/.vim/backups//
 set directory=~/.vim/swaps//
 

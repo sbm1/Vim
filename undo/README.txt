@@ -1,2 +1,0 @@
-Folder stores undo history
-
