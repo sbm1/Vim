@@ -34,13 +34,13 @@ set wildmenu
 
 " NERDTree
 "+++++++++++++++++++++++++++++++++++++++
-autocmd vimenter * NERDTree             " auto open
-autocmd vimenter * wincmd w             " auto execute CTRL-W w command (moves to next second pane on startup)
+"autocmd vimenter * NERDTree             " auto open
+"autocmd vimenter * wincmd w             " auto execute CTRL-W w command (moves to next second pane on startup)
 
-map N :NERDTreeToggle<CR>               
+"map N :NERDTreeToggle<CR>               
 " open NERDTree with N
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif " close vim if NERDTree is last window open
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif " close vim if NERDTree is last window open
 
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+"let g:NERDTreeDirArrowExpandable = '▸'
+"let g:NERDTreeDirArrowCollapsible = '▾'
 "+++++++++++++++++++++++++++++++++++++++
