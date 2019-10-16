@@ -7,7 +7,7 @@ set directory=~/.vim/swaps//
 " General
 set number		                        " show line numbers
 highlight LineNr ctermfg=white
-colorscheme lanox
+"colorscheme lanox
 syntax on
 "set spell		                        " spellcheck
 "set hlsearch		                    " highlight all search results
